@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* 
+Police utilisée dans la page : Roboto , arial ou sans-serif 
+*/
+/* 
+Section : 
+ - centrée.
+ - largeur maximale: 800px
+ - couleur texte : blache
+ - image de fond: "programming-skills" sans répitition.
+      - taille: couvre la largeur de la section.
+      - partie visible : centre de l'image.
+ - rayon de la bordure: 10px.
+ - marges internes: 100px.
+*/
+
+/* 
+    Titre de la section: 
+    - texte centré.
+    - taille police: 3 fois la taille normale.
+    - epaisseur police: 400.
+    - couleur de fond: noir avec opacité de 40%.
+    - bordure inférieur: 
+       - epaisseur: 1px
+       - couleur: blanc
+       - type: ligne continue.
+    - marges externe inférieur: 50px.
+*/
+
+/* 
+    Paragraphe de la section: 
+    - taille police: 18px.
+    - hauteur de la ligne: 1.5 fois la taille normale du texte.
+    - marge externe inférieur: 3 fois la taille normale du texte.
+*/
+
+/* 
+    Lien de la section: 
+    - couleur de fond: blanc
+    - couleur texte: noir.
+    - supprimer la sous-ligne.
+    - rayon de la bordure: 10px.
+    - marges internes: 10px haut/bas et 20px gauche/droite.
+*/
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+	font-family: "Roboto", Arial, sans-serif;
+}
+
+section {
+	margin: auto;
+	width: 800px;
+	color: white;
+	background: url("/programming-skills.png") center;
+	background-size: cover;
+	border-radius: 10px;
+	padding: 100px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	font-weight: 400;
+	background-color: #00000040;
+	border-bottom: 1px solid white;
+	margin-bottom: 50px;
+}
+
+p {
+	font-size: 18px;
+	height: 1.5em;
+	margin-bottom: 3em;
+}
+
+a {
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
